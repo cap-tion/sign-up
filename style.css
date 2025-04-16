@@ -5,7 +5,8 @@
 body{
 font-family:'Roboto',sans-serif;
 margin:0;
-background-color: #262526;
+
+background-color: #2e2e2d;
 }
 h1,h2 {
     font-family: 'Special Gothic Expanded One',cursive;
@@ -28,17 +29,22 @@ h1,h2 {
 }
 h2{
     color: #A6A197;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .content{
     flex:1;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
-p{
-    color:#CAC2BD
+.info{
+    color:#CAC2BD;
+    width: 50vw;
+    margin-top: 10vw;
+}
+.signup{
+    margin-bottom: 10vw;
 }
 .header{
     height:10vh;
@@ -75,5 +81,42 @@ p{
     justify-content: space-evenly;
     color: #8C877D;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
+   
+}
+legend{
+    margin-bottom: 1vh;
+    color:#CAC2BD;
+    font-size: xx-large;
 
+}
+.test{
+    display: flex;
+    width: 50vw;
+    gap: 5vw;
+    margin-top: 1vh;
+}
+.test1{
+    display: flex;
+    flex-direction: column;
+}
+.act{
+    background-color: #121010;
+    padding: 4vh 10vw ;
+    box-shadow: 0px 6px 14px -2px rgba(0,0,0,0.57);
+}
+.test+.test+.test{
+    margin-bottom: 1vh;
+}
+label{
+    color:#A6A197;
+    font-size:medium;;
+}
+input{
+    width:10vw;
+    height:2vh
+}
